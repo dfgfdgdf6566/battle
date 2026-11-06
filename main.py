@@ -107,10 +107,10 @@ def battle(heroes):
 
 def main():
     heroes = [
-        HeroFactory.make("archer", "Эльф Володя"),
-        HeroFactory.make("berserker", "Гном Кристина"),
-        HeroFactory.make("blacksmith", "Огр Валерий"),
-        HeroFactory.make("knight", "Фея Ольга"),
+        HeroFactory.make("archer", "Человек Алена"),
+        HeroFactory.make("berserker", "Александр Орк"),
+        HeroFactory.make("blacksmith", "Иван эльф"),
+        HeroFactory.make("knight", "Русалка Любава"),
     ]
     battle(heroes)
 
